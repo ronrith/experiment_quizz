@@ -1,0 +1,93 @@
+body{
+	background-color: white;
+}
+
+.styleTitle, .styleChoices, .styleQuestion, .styleStatus, .stylePanel {
+	display: none; 
+}
+
+.buttonReset, .buttonNext{
+	font-size:20px;
+}
+
+.styleChoices {
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.styleChoices .buttonChoice {
+	border-radius: 3px;
+	border: 2px solid #CBCCC4;
+	background-color: #D7D7FF;
+	font-size: 25px;
+	margin-right: 20px;
+
+}
+
+.styleChoices .buttonChoice:hover {
+	background-color: #DFFFDF;
+}
+
+.stylePanel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+.stylePanel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.styleStatus {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 0px auto;
+	margin-top: 30px;
+	max-width: 500px;
+	text-align: center;
+	text-shadow: 2px 2px 8px #D6D7D0;
+}
+
+.styleQuestion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.styleTitle {
+	color: black; 
+	border: 4px solid #EBECE8;
+	border-radius: 9px;
+	background-color: #F5F5F3;
+	font-size: 50px;
+	font-family: 'Kaushan Script', cursive;
+	margin: 0px auto;
+	margin-top: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 10px #6A6D5C;
+	max-width: 500px;
+}
+
+/*=================================*/
+/*Responsive settings*/
+
+/* @media screen and (max-width: 500px){
+	hide author and date when width < 500px
+	.menu .content .title{
+		font-size: 28px;
+		width: 300px;
+	}
+	.menu .content .author, .cdate{
+		display: inline-block;
+		visibility: hidden;
+	}
+}
+ */
